@@ -1,0 +1,11 @@
+struct node
+{
+	int num;
+	int height;
+	struct node *left;
+	struct node *right;
+
+
+};
+
+typedef struct node node;
